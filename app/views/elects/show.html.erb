@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @elect %>
+
+<div>
+  <%= link_to "Edit this elect", edit_elect_path(@elect) %> |
+  <%= link_to "Back to elects", elects_path %>
+
+  <%= button_to "Destroy this elect", @elect, method: :delete %>
+</div>
